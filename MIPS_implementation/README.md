@@ -1,5 +1,7 @@
 # MIPS instructions
 
+(view this in RAW for proper formatting)
+
 In this C++ code I've implemented basic R, I & J type instructions using MIPS style architecture.
 
 Assumptions:
