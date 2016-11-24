@@ -20,17 +20,17 @@ Following is the data path of MIPS architecture:
 Using these above steps I implemented these instructions:
 
 Name		Type		Opcode(Hex)	Func(Hex)
-addu		R-Type 	00			21
-subu 		R-Type 	00 			23
-addiu 	I-Type 	09
-and 		R-Type 	00 			24
-or 		R-Type 	00 			25
-nor 		R-Type 	00 			27
-beq 		I-Type 	04
-j 		J-Type 	02
-lw 		I-Type 	23
-sw 		I-Type 	2B
-halt 		J-Type 	3F
+addu		R-Type 		00			21
+subu 		R-Type 		00 			23
+addiu 		I-Type 		09
+and 		R-Type 		00 			24
+or 		R-Type 		00 			25
+nor 		R-Type 		00 			27
+beq 		I-Type 		04
+j 		J-Type 		02
+lw 		I-Type 		23
+sw 		I-Type 		2B
+halt 		J-Type 		3F
 
 All of the result of operation(s) are stored in RFresult.txt which is generated after each execution. Where text is appended to each execution of it.
 I've attached my result file.
